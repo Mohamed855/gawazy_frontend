@@ -1,6 +1,6 @@
-<div class="col-lg-10">
+<div class="m-auto">
     <a href="" class="btn border-0 fs-4">
-        <div class="d-flex justify-content-around">
+        <div class="d-flex">
             <div class="col-1">
                 <img class="pb-1 w-100 rounded-circle" src="{{ url('images/defaults/profile.jpg') }}">
             </div>
@@ -12,7 +12,5 @@
             </div>
         </div>
     </a>
-    <div class="col-10">
-        <hr class="notifications-saparator">
-    </div>
+    <hr class="notifications-saparator">
 </div>

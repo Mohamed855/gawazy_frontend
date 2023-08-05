@@ -37,8 +37,8 @@
                         @case('draft')
                             @include('site.sections.vendor.draft')
                             @break
-                        @case('edit_service')
-                            @include('site.sections.vendor.editService')
+                        @case('main_service')
+                            @include('site.sections.vendor.mainService')
                             @break
                         @case('latest_work')
                             @include('site.sections.vendor.latestWork')

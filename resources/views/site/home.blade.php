@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="heading pt-5">
-                    <h3>{{ __('main.welcomeMessage') }}</h3>
+                    <h4>{{ __('main.welcomeMessage') }}</h4>
                 </div>
             </div>
         </div>

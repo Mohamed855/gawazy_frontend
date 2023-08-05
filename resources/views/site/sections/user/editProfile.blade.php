@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h3>{{ __('dashboard.profile') }}</h3>
+                        <h4>{{ __('dashboard.profile') }}</h4>
                         <div class="seperator"></div>
                     </div>
                     <form action="" method="post">
@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h3>{{ __('dashboard.settings') }}</h3>
+                        <h4>{{ __('dashboard.settings') }}</h4>
                         <div class="seperator"></div>
                     </div>
                     <div class="d-md-flex justify-content-start py-5">
@@ -93,8 +93,8 @@
             <div class="row">
                 <div class="d-flex m-5">
                     <div class=" d-flex col-6">
-                        <a href="" class="btn gawazy-font-primary px-3 py-2 mx-1 mx-md-3 w-auto close-btn">{{ __('dashboard.closeAcc') }}</a>
-                        <a href="" class="btn gawazy-font-primary px-3 py-2 mx-1 mx-md-3 w-auto close-btn">{{ __('dashboard.deleteAcc') }}</a>
+                        <a href="" class="btn gawazy-font-primary px-3 py-2 mx-1 mx-md-3 w-auto close-btn">{{ __('dashboard.close') }}</a>
+                        <a href="" class="btn gawazy-font-primary px-3 py-2 mx-1 mx-md-3 w-auto close-btn">{{ __('dashboard.delete') }}</a>
                     </div>
                     <div class="col-6">
                         <a href="" class="btn gawazy-primary px-5 py-2 gawazy-font-gray fs-5">{{ __('dashboard.save') }}</a>

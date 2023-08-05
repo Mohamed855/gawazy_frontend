@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h3>{{ __('main.vendorOffers') }}</h3>
+                        <h4>{{ __('main.vendorOffers') }}</h4>
                         <div class="seperator"></div>
                     </div>
                 </div>

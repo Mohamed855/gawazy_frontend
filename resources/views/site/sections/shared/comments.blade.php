@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h3>{{ __('main.comments') }}</h3>
+                        <h4>{{ __('main.comments') }}</h4>
                         <div class="seperator"></div>
                     </div>
 

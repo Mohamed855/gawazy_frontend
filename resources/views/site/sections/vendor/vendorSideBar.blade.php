@@ -3,7 +3,8 @@
     <h4 class="pt-2">{{ __('dashboard.userName') }}</h4>
     <form action="" method="post" enctype="multipart/form-data">
         @csrf
-        <label class="btn gawazy-font-gray fs-5">
+        <p class="fs-5">{{ __('dashboard.mainServiceName') }}</p>
+        <label class="btn gawazy-font-gray fs-5" style="margin-top: -20px">
             <img id="dashboard-edit" src="{{ url('images/icons/edit.png') }}"> {{ __('dashboard.edit') }}
             <input type="file" name="profileImage" id="profileImage" class="btn">
         </label>
@@ -19,7 +20,7 @@
             <hr class="mx-2 sidebar-saparator">
         </div>
         <div class="sidebar-btn text-end">
-            <a href="{{ route('edit_service') }}" class="btn gawazy-font-gray fs-4">
+            <a href="{{ route('main_service') }}" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/services.png') }}">
                 {{ __('dashboard.services') }}
             </a>
@@ -43,6 +44,13 @@
             <a href="{{ route('draft') }}" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/draft.png') }}">
                 {{ __('dashboard.draft') }}
+            </a>
+            <hr class="mx-2 sidebar-saparator">
+        </div>
+        <div class="sidebar-btn text-end">
+            <a href="{{ route('latest_work') }}" class="btn gawazy-font-gray fs-4">
+                <img class="dashboard-icon pb-1" src="{{ url('images/icons/latestWork.png') }}">
+                {{ __('dashboard.latestWork') }}
             </a>
             <hr class="mx-2 sidebar-saparator">
         </div>
@@ -76,13 +84,13 @@
             </a>
             <hr class="mx-2 sidebar-saparator">
         </div>
-        <div class="sidebar-btn text-end">
+       <!-- <div class="sidebar-btn text-end">
             <a href="{{ route('vendorMessages') }}" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/chat.png') }}">
                 {{ __('dashboard.messages') }}
             </a>
             <hr class="mx-2 sidebar-saparator">
-        </div>
+        </div> *-->
         <div class="sidebar-btn text-end">
             <a href="{{ route('vendorSupport') }}" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/support.png') }}">

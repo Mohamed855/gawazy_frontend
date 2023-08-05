@@ -32,11 +32,11 @@ class VendorsController extends Controller
     public function draft() {
         return view('dashboard.vendor')->with('selected', 'draft');
     }
-    public function edit_service() {
-        return view('dashboard.vendor')->with('selected', 'edit_service');
+    public function main_service() {
+        return view('dashboard.vendor')->with('selected', 'main_service');
     }
     public function latest_work() {
-        return view('dashboard.vendor')->with('selected', 'latest_work');
+        return view('dashboard.vendor')->with(['selected' => 'latest_work', 'id' => 1]);
     }
     public function my_offers() {
         return view('dashboard.vendor')->with('selected', 'my_offers');

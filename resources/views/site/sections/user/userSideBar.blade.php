@@ -32,13 +32,13 @@
             </a>
             <hr class="mx-2 sidebar-saparator">
         </div>
-        <div class="sidebar-btn text-end">
+        <!--<div class="sidebar-btn text-end">
             <a href="{{ route('UserMessages') }}" onclick="changeContent()" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/chat.png') }}">
                 {{ __('dashboard.messages') }}
             </a>
             <hr class="mx-2 sidebar-saparator">
-        </div>
+        </div>-->
         <div class="sidebar-btn text-end">
             <a href="{{ route('userSupport') }}" onclick="changeContent()" class="btn gawazy-font-gray fs-4">
                 <img class="dashboard-icon pb-1" src="{{ url('images/icons/support.png') }}">

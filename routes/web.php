@@ -58,7 +58,7 @@ Route::group(['prefix' => 'vendor'], function() {
     Route::get('add_new_offer', [VendorsController::class, 'add_new_offer']) -> name('add_new_offer');
     Route::get('add_secondary_service', [VendorsController::class, 'add_secondary_service']) -> name('add_secondary_service');
     Route::get('draft', [VendorsController::class, 'draft']) -> name('draft');
-    Route::get('edit_service', [VendorsController::class, 'edit_service']) -> name('edit_service');
+    Route::get('main_service', [VendorsController::class, 'main_service']) -> name('main_service');
     Route::get('latest_work', [VendorsController::class, 'latest_work']) -> name('latest_work');
     Route::get('my_offers', [VendorsController::class, 'my_offers']) -> name('my_offers');
     Route::get('my_secondary_services', [VendorsController::class, 'my_secondary_services']) -> name('my_secondary_services');
