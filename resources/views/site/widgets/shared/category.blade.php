@@ -4,7 +4,7 @@
             <img class="category-image p-2" src="{{ url('images/categories/beauty.png') }}">
         </div>
         <div class="text-center pt-1 py-5">
-            {{ __('categories.beauty') }}
+            {{ __('category.beauty') }}
         </div>
     </a>
 </div>

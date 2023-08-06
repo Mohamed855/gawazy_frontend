@@ -1,6 +1,6 @@
-<div class="d-flex px-3">
-    <input type="checkbox" class="ms-4">
-    <div class="col-9 col-md-10 gawazy-font-primary"><h5>{{ __('dashboard.offerName') }}</h5></div>
+<div class="d-flex">
+    <input type="checkbox" class="mx-2">
+    <div class="col-9 col-md-10 gawazy-font-primary"><h5>{{ __('offer.offerName') }}</h5></div>
     <div class="col-3 col-md-2">
         <div class="d-flex">
             <a class="px-1" href="">

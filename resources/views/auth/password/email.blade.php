@@ -14,7 +14,7 @@
                             <div class="w-100 px-1">
                                 <label for="email"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.email') }}
+                                    {{ __('forms.email') }}
                                 </label>
                             </div>
 
@@ -33,13 +33,13 @@
                             <div class="row mb-0">
                                 <div class="text-center">
                                     <button id="gawazy-btn" type="submit" class="btn">
-                                        {{ __('auth.send') }}
+                                        {{ __('actions.send') }}
                                     </button>
                                 </div>
 
 
                                 <a class="btn btn-link link-underline-light auth-text gawazy-font-secondary" href="{{ route('login') }}">
-                                    {{ __('auth.previous') }}
+                                    {{ __('global.previous') }}
                                 </a>
                             </div>
                         </form>

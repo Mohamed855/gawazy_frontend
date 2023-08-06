@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h4>{{ __('main.offers') }}</h4>
+                        <h4>{{ __('offer.offers') }}</h4>
                         <div class="seperator"></div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                             <a class="text-decoration-none" href="{{ route('offers') }}">
                                 <div class="service-card bg-white rounded">
                                     <div class="show-more">
-                                        {{ __('main.forMore') }}
+                                        {{ __('global.forMore') }}
                                     </div>
                                 </div>
                             </a>

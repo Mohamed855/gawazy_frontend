@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h4>{{ __('main.services') }}</h4>
+                        <h4>{{ __('service.services') }}</h4>
                         <div class="seperator"></div>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                             <form action="">
                                 @csrf
                                 <div class="pt-3 text-center">
-                                    <button class="w-auto btn gawazy-primary gawazy-font-gray" type="submit">{{ __('dashboard.delete') }}</button>
+                                    <button class="w-auto btn gawazy-primary gawazy-font-gray" type="submit">{{ __('actions.delete') }}</button>
                                 </div>
                             </form>
                         </div>
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h4>{{ __('main.offers') }}</h4>
+                        <h4>{{ __('offer.offers') }}</h4>
                         <div class="seperator"></div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                             <form action="">
                                 @csrf
                                 <div class="pt-3 text-center">
-                                    <button class="w-auto btn gawazy-primary gawazy-font-gray" type="submit">{{ __('dashboard.delete') }}</button>
+                                    <button class="w-auto btn gawazy-primary gawazy-font-gray" type="submit">{{ __('actions.delete') }}</button>
                                 </div>
                             </form>
                         </div>

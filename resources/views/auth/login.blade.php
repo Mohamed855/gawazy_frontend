@@ -14,7 +14,7 @@
                             <div class="w-100 px-1">
                                 <label for="email"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.email') }}
+                                    {{ __('forms.email') }}
                                 </label>
                             </div>
 
@@ -33,7 +33,7 @@
 
                             <div class="w-100 px-1">
                                 <label for="password"
-                                       class="col-md-4 pb-2">{{ __('auth.password') }}
+                                       class="col-md-4 pb-2">{{ __('forms.password') }}
                                 </label>
                             </div>
 
@@ -52,7 +52,7 @@
                             <div class="w-100 px-1">
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link link-underline-light gawazy-font-secondary auth-text" href="{{ route('password.request') }}">
-                                        {{ __('auth.forgetPassword') }}
+                                        {{ __('forms.forgetPassword') }}
                                     </a>
                                 @endif
                             </div>
@@ -60,13 +60,13 @@
                             <div class="row mb-0">
                                 <div class="text-center">
                                     <button id="gawazy-btn" type="submit" class="btn">
-                                        {{ __('auth.logIn') }}
+                                        {{ __('actions.logIn') }}
                                     </button>
                                 </div>
 
 
                                 <a class="btn btn-link link-underline-light gawazy-font-secondary auth-text" href="{{ route('signup-options') }}">
-                                    {{ __('auth.createNewAccount') }}
+                                    {{ __('actions.createNewAccount') }}
                                 </a>
                             </div>
                         </form>

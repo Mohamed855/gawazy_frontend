@@ -6,10 +6,10 @@
     </div>
     <div class="offer-details text-start position-relative">
         <div class="discount px-3 py-2 start-0 rounded">
-            <span>خصم 20%</span>
+            <span>20% {{ __('global.dis') }}</span>
         </div>
         <div class="discount-date px-3 py-2 start-0 rounded">
-            <span>من 10 أشهر</span>
+            <span>{{ __('global.from') }} 10 {{ __('global.months') }}</span>
         </div>
     </div>
     <div>
@@ -22,17 +22,17 @@
             <div>
                 <div style="color: black;">
                     <h4 class="service-title">
-                        {{ __('main.service-title') }}
+                        {{ __('service.serviceName') }}
                     </h4>
                 </div>
                 <small>
-                    {{ __('main.service-address') }}
+                    {{ __('service.serviceAddress') }}
                 </small>
             </div>
             <div class="price-rate">
                 <div>
-                    <div class="price"><strong>2000</strong> {{ __('main.eg') }}</div>
-                    <div class="price"><del>5000</del> {{ __('main.eg') }}</div>
+                    <div class="price"><strong>2000</strong> {{ __('global.eg') }}</div>
+                    <div class="price"><del>5000</del> {{ __('global.eg') }}</div>
                 </div>
                 <div class="rate">
                     <label></label>
@@ -45,12 +45,12 @@
         </div>
         <div class="">
             <div class="vendor-name ">
-                <span>{{ __('auth.vendorName') }}</span>
+                <span>{{ __('vendor.vendorName') }}</span>
             </div>
         </div>
         <div class="d-flex justify-content-between pt-3">
             <div class="pt-2 ">
-                <a href="{{ route('offerPage', $id) }}" class="more-btn px-4 py-2 text-white rounded">{{ __('main.more') }}</a>
+                <a href="{{ route('offerPage', $id) }}" class="more-btn px-4 py-2 text-white rounded">{{ __('global.more') }}</a>
             </div>
             <div class="service-actions">
                 <div class="actions">

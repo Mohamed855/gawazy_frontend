@@ -8,7 +8,7 @@
                     <div class="w-100 px-1">
                         <label for="message_title"
                                class="col-md-4 pb-2">
-                            {{ __('dashboard.msgTitle') }}
+                            {{ __('global.msgTitle') }}
                         </label>
                     </div>
 
@@ -22,7 +22,7 @@
                     <div class="w-100 px-1">
                         <label for="message"
                                class="col-md-4 pb-2">
-                            {{ __('dashboard.msgDesc') }}
+                            {{ __('global.msgDesc') }}
                         </label>
                     </div>
 
@@ -34,7 +34,7 @@
                     <div class="row mb-0">
                         <div class="text-start">
                             <button id="gawazy-btn" type="submit" class="btn">
-                                {{ __('auth.send') }}
+                                {{ __('actions.send') }}
                             </button>
                         </div>
                     </div>

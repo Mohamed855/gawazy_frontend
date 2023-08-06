@@ -38,6 +38,7 @@
     <!-- Scripts -->
     <script src="{{ url('assets/js/toggleOverlay.js') }}"></script>
     <script src="{{ url('assets/js/showDescription.js') }}"></script>
+
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 </head>

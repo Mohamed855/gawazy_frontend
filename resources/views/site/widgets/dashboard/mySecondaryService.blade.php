@@ -1,9 +1,9 @@
 <div class="d-flex text-center">
-    <input type="checkbox">
-    <div class="col-2 gawazy-font-primary"><h5>{{ __('dashboard.serviceName') }}</h5></div>
-    <div class="col-2 gawazy-font-primary"><h5>{{ __('dashboard.status') }}</h5></div>
-    <div class="col-2 gawazy-font-primary"><h5>{{ __('dashboard.price') }}</h5></div>
-    <div class="col-2 gawazy-font-primary"><h5>{{ __('dashboard.location') }}</h5></div>
+    <input type="checkbox" name="secondaryService">
+    <div class="col-2 gawazy-font-primary"><h5>{{ __('service.serviceName') }}</h5></div>
+    <div class="col-2 gawazy-font-primary"><h5>{{ __('global.status') }}</h5></div>
+    <div class="col-2 gawazy-font-primary"><h5>{{ __('global.price') }}</h5></div>
+    <div class="col-2 gawazy-font-primary"><h5>{{ __('forms.location') }}</h5></div>
     <div class="col-1 gawazy-font-primary"><h5>99</h5></div>
     <div class="col-1 gawazy-font-primary"><h5>99</h5></div>
     <div class="col-1 gawazy-font-primary"><h5>99</h5></div>

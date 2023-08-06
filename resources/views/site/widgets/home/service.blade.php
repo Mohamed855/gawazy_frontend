@@ -14,17 +14,17 @@
             <div>
                 <div style="color: black;">
                     <h4 class="service-title">
-                        {{ __('main.service-title') }}
+                        {{ __('service.serviceName') }}
                     </h4>
                 </div>
                 <small>
-                    {{ __('main.service-address') }}
+                    {{ __('service.serviceAddress') }}
                 </small>
             </div>
             <div class="price-rate">
                 <div>
-                    <div class="price">{{ __('main.from') }} <strong>2000</strong> {{ __('main.eg') }}</div>
-                    <div class="price">{{ __('main.to') }} <strong>5000</strong> {{ __('main.eg') }}</div>
+                    <div class="price">{{ __('global.from') }} <strong>2000</strong> {{ __('global.eg') }}</div>
+                    <div class="price">{{ __('global.to') }} <strong>5000</strong> {{ __('global.eg') }}</div>
                 </div>
                 <div class="rate">
                     <label></label>
@@ -37,12 +37,12 @@
         </div>
         <div class="">
             <div class="vendor-name ">
-                <span>{{ __('auth.vendorName') }}</span>
+                <span>{{ __('vendor.vendorName') }}</span>
             </div>
         </div>
         <div class="d-flex justify-content-between pt-3">
             <div class="pt-2 ">
-                <a href="{{ route('servicePage', $id) }}" class="more-btn px-4 py-2 text-white rounded">{{ __('main.more') }}</a>
+                <a href="{{ route('servicePage', $id) }}" class="more-btn px-4 py-2 text-white rounded">{{ __('global.more') }}</a>
             </div>
             <div class="service-actions">
                 <div class="actions">

@@ -3,9 +3,16 @@
 return [
     /*
      *
-     * Categories English keywords
+     * Category English keywords
      *
      * */
+
+    'categories' => 'Categories',
+    'allCategories' => 'All Categories',
+    'categoryTitle' => 'Category Title',
+    'chooseCategory' => 'Choose Category',
+
+    // Site Categories
 
     'beauty' => 'Beauty',
     'weddingInvitations' => 'Wedding Invitations',
@@ -19,5 +26,4 @@ return [
     'buffet' => 'Buffet',
     'cars' => 'Cars',
     'other' => 'Other',
-
 ];

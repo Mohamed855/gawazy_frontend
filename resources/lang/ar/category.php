@@ -3,9 +3,16 @@
 return [
     /*
      *
-     * Categories Arabic keywords
+     * Category Arabic keywords
      *
      * */
+
+    'categories' => 'الاقسام',
+    'allCategories' => 'كل الاقسام',
+    'categoryTitle' => 'عنوان القسم',
+    'chooseCategory' => 'اختر قسم الخدمة',
+
+    // Site Categories
 
     'beauty' => 'تجميل وعناية',
     'weddingInvitations' => 'دعوات زفاف',

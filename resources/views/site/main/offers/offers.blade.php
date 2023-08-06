@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading pt-5 px-1">
-                            <h4>{{ __('main.offers') }}</h4>
+                            <h4>{{ __('offer.offers') }}</h4>
                             <div class="seperator"></div>
                         </div>
                     </div>

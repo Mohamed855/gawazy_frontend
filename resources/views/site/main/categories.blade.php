@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading pt-5 px-1">
-                            <h4>{{ __('main.categories') }}</h4>
+                            <h4>{{ __('category.categories') }}</h4>
                             <div class="seperator"></div>
                         </div>
                     </div>

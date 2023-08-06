@@ -14,7 +14,7 @@
                             <div class="w-100 px-1">
                                 <label for="fName"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.firstName') }}
+                                    {{ __('forms.firstName') }}
                                 </label>
                             </div>
 
@@ -33,7 +33,7 @@
                             <div class="w-100 px-1">
                                 <label for="lName"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.lastName') }}
+                                    {{ __('forms.lastName') }}
                                 </label>
                             </div>
 
@@ -52,7 +52,7 @@
                             <div class="w-100 px-1">
                                 <label for="phone"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.phone') }}
+                                    {{ __('forms.phone') }}
                                 </label>
                             </div>
 
@@ -72,7 +72,7 @@
                             <div class="w-100 px-1">
                                 <label for="email"
                                        class="col-md-4 pb-2">
-                                    {{ __('auth.email') }}
+                                    {{ __('forms.email') }}
                                 </label>
                             </div>
 
@@ -91,7 +91,7 @@
 
                             <div class="w-100 px-1">
                                 <label for="password"
-                                       class="col-md-4 pb-2">{{ __('auth.password') }}
+                                       class="col-md-4 pb-2">{{ __('forms.password') }}
                                 </label>
                             </div>
 
@@ -109,7 +109,7 @@
 
                             <div class="w-100 px-1">
                                 <label for="password"
-                                       class="col-md-4 pb-2">{{ __('auth.confirmPassword') }}
+                                       class="col-md-4 pb-2">{{ __('forms.confirmPassword') }}
                                 </label>
                             </div>
 
@@ -127,21 +127,21 @@
 
                             <div class="fw-light px-5 text-center">
                                 <p>
-                                    {{ __('auth.termsHint') }}
-                                    <a href="{{ route('policy') }}">{{ __('main.privacy') }}</a>
+                                    {{ __('global.termsHint') }}
+                                    <a href="{{ route('policy') }}">{{ __('global.privacy') }}</a>
                                 </p>
                             </div>
 
                             <div class="row mb-0">
                                 <div class="text-center">
                                     <button id="gawazy-btn" type="submit" class="btn">
-                                        {{ __('auth.register') }}
+                                        {{ __('actions.register') }}
                                     </button>
                                 </div>
 
 
                                 <a class="btn btn-link link-underline-light auth-text gawazy-font-secondary p-0" href="{{ route('signup-options') }}">
-                                    {{ __('auth.previous') }}
+                                    {{ __('global.previous') }}
                                 </a>
                             </div>
                         </form>

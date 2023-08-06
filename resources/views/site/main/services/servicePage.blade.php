@@ -15,6 +15,7 @@
                     @include('site.sections.service.serviceSideBar')
                 </div>
                 <div class="col-lg-9">
+                    @include('site.sections.service.latestWork')
                     @include('site.sections.service.serviceDetails')
                     @include('site.sections.shared.comments')
                 </div>

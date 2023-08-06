@@ -10,7 +10,7 @@
                             <span class="btn gawazy-font-primary fs-3 px-3 py-1 w-auto close-btn"> + </span>
                             <input type="file" name="profileImage" id="profileImage" class="btn">
                         </label>
-                        <h4>{{ __('dashboard.addLatestWork') }}</h4>
+                        <h4>{{ __('actions.addLatestWork') }}</h4>
                     <hr>
                     </div>
 

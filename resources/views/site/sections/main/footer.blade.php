@@ -15,19 +15,19 @@
                                     <div class="mb-3">
                                         <ul class="quick-links col-sm-4">
                                             <li class="text-end">
-                                                <a href="/">{{ __('main.home') }}</a>
+                                                <a href="/">{{ __('global.home') }}</a>
                                             </li>
                                             <li class="text-end">
-                                                <a href="/services?search=">{{ __('main.services') }}</a>
+                                                <a href="/services?search=">{{ __('service.services') }}</a>
                                             </li>
                                             <li class="text-end">
-                                                <a href="/offers?search=">{{ __('main.offers') }}</a>
+                                                <a href="/offers?search=">{{ __('offer.offers') }}</a>
                                             </li>
                                             <li class="text-end">
-                                                <a href="/support">{{ __('main.support') }}</a>
+                                                <a href="/support">{{ __('global.support') }}</a>
                                             </li>
                                             <li class="text-end">
-                                                <a href="/help">{{ __('main.help') }}</a>
+                                                <a href="/help">{{ __('global.help') }}</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -69,18 +69,18 @@
             <div class="col-md-6">
                 <div class="designed-by text-white">
                     <span>
-                        <a href="/terms" class="link">{{ __('main.terms') }}</a>
+                        <a href="/terms" class="link">{{ __('global.terms') }}</a>
                     </span> | <span>
-                        <a href="/policy">{{ __('main.privacy') }}</a>
+                        <a href="/policy">{{ __('global.privacy') }}</a>
                     </span>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="copyrights text-white">
-                    {{ __('main.copyrights') }}
+                    {{ __('global.copyrights') }}
                     © GAWAZY Co.
-                    {{ __('main.year') }}
+                    {{ __('global.year') }}
                     {{ now()->year }}
                 </div>
             </div>

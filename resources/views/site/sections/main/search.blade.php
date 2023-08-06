@@ -10,7 +10,7 @@
                                 <div class="row">
                                     <div class="col-md-9 col-sm-6">
                                         <div class="mb-3">
-                                            <input type="text" name="search" placeholder="{{ __('main.search...') }}"
+                                            <input type="text" name="search" placeholder="{{ __('global.search...') }}"
                                                    value="" id="search"
                                                    class="is-untouched is-pristine av-valid form-control bg-white focus-ring focus-ring-light border rounded">
                                         </div>
@@ -19,10 +19,10 @@
                                         <div class="mb-3">
                                             <select name="category_id" id="category_id"
                                                     class="form-control bg-white focus-ring focus-ring-light is-untouched is-pristine av-valid">
-                                                <option value="">{{ __('main.allCategories') }}</option>
-                                                <optgroup class="py-2" label="{{ __('main.group') }}">
-                                                    <option value="">{{ __('main.item') }}</option>
-                                                    <option value="">{{ __('main.item') }}</option>
+                                                <option value="">{{ __('category.allCategories') }}</option>
+                                                <optgroup class="py-2" label="{{ __('global.group') }}">
+                                                    <option value="">{{ __('global.item') }}</option>
+                                                    <option value="">{{ __('global.item') }}</option>
                                                 </optgroup>
                                             </select>
                                         </div>
@@ -31,7 +31,7 @@
                             </div>
                             <div class="col-lg-2">
                                 <button id="gawazy-btn" class="btn rounded w-100" type="submit">
-                                    {{ __('main.search') }}
+                                    {{ __('global.search') }}
                                 </button>
                             </div>
                         </div>

@@ -6,6 +6,6 @@
     </div>
 
     <div>
-        <p>{{ __('dashboard.date') }} - {{ __('dashboard.city') }}</p>
+        <p>{{ __('global.date') }} - {{ __('global.city') }}</p>
     </div>
 </div>

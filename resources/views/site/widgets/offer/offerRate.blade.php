@@ -2,24 +2,24 @@
     <div class="col-md-6">
         <div class="pt-3 fs-5">
             <h2 class="gawazy-font-primary">
-                {{ __('offers.title') }}
+                {{ __('offer.title') }}
             </h2>
             <h4 class="gawazy-font-secondary">
-                {{ __('offers.date') }}
+                {{ __('offer.date') }}
             </h4>
             <p>
-                {{ __('offers.shortDescription') }}
+                {{ __('offer.shortDescription') }}
             </p>
             <button id="more_btn" class="btn gawazy-primary text-white px-3" onclick="showMoreDescription()">
-                {{ __('main.more') }}
+                {{ __('global.more') }}
             </button>
 
             <div id="service_description" class="py-3">
                 <p>
-                    {{ __('offers.shortDescription') }}
+                    {{ __('offer.shortDescription') }}
                 </p>
                 <button class="btn gawazy-primary text-white px-3" onclick="showLessDescription()">
-                    {{ __('main.less') }}
+                    {{ __('global.less') }}
                 </button>
             </div>
         </div>
@@ -40,8 +40,8 @@
         </div>
         <div class="float-start w-75 text-start">
             <div class="d-flex mb-2">
-                <del class="gawazy-font-primary fs-1" style="width: 50%">4000 {{ __('main.eg') }}</del>
-                <span class="gawazy-font-primary fs-1" style="width: 50%">20000 {{ __('main.eg') }}</span>
+                <del class="gawazy-font-primary fs-1" style="width: 50%">4000 {{ __('global.eg') }}</del>
+                <span class="gawazy-font-primary fs-1" style="width: 50%">20000 {{ __('global.eg') }}</span>
             </div>
         </div>
         <div class="float-end w-100 text-start">
@@ -50,35 +50,35 @@
                 <div class="w3-light-grey w3-round" style="width: 70%">
                     <div class="w3-container w3-orange w3-round h-100" style="width:80%">80%</div>
                 </div>
-                <span class="rate-size px-1" style="width: 15%">5 {{ __('services.star') }}</span>
+                <span class="rate-size px-1" style="width: 15%">5 {{ __('global.star') }}</span>
             </div>
             <div class="d-flex justify-content-around mb-2">
                 <span class="rate-size px-2" style="width: 15%">75</span>
                 <div class="w3-light-grey w3-round" style="width: 70%">
                     <div class="w3-container w3-orange w3-round h-100" style="width:15%">15%</div>
                 </div>
-                <span class="rate-size px-1" style="width: 15%">4 {{ __('services.star') }}</span>
+                <span class="rate-size px-1" style="width: 15%">4 {{ __('global.star') }}</span>
             </div>
             <div class="d-flex justify-content-around mb-2">
                 <span class="rate-size px-2" style="width: 15%">25</span>
                 <div class="w3-light-grey w3-round" style="width: 70%">
                     <div class="w3-container w3-orange w3-round h-100" style="width:5%">5%</div>
                 </div>
-                <span class="rate-size px-1" style="width: 15%">3 {{ __('services.star') }}</span>
+                <span class="rate-size px-1" style="width: 15%">3 {{ __('global.star') }}</span>
             </div>
             <div class="d-flex justify-content-around mb-2">
                 <span class="rate-size px-2" style="width: 15%">0</span>
                 <div class="w3-light-grey w3-round" style="width: 70%">
                     <div class="w3-container w3-orange w3-round h-100" style="width:0%">0%</div>
                 </div>
-                <span class="rate-size px-1" style="width: 15%">2 {{ __('services.star') }}</span>
+                <span class="rate-size px-1" style="width: 15%">2 {{ __('global.star') }}</span>
             </div>
             <div class="d-flex justify-content-around mb-2">
                 <span class="rate-size px-2" style="width: 15%">0</span>
                 <div class="w3-light-grey w3-round" style="width: 70%">
                     <div class="w3-container w3-orange w3-round h-100" style="width:0%">0%</div>
                 </div>
-                <span class="rate-size px-1" style="width: 15%">1 {{ __('services.star') }}</span>
+                <span class="rate-size px-1" style="width: 15%">1 {{ __('global.star') }}</span>
             </div>
         </div>
     </div>

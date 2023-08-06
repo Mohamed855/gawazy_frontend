@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading pt-5 px-1">
-                        <h4>{{ __('main.categories') }}</h4>
+                        <h4>{{ __('category.categories') }}</h4>
                         <div class="seperator"></div>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/beauty.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.beauty') }}
+                                {{ __('category.beauty') }}
                             </div>
                         </a>
                     </div>
@@ -26,7 +26,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/weddingInvitations.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.weddingInvitations') }}
+                                {{ __('category.weddingInvitations') }}
                             </div>
                         </a>
                     </div>
@@ -36,7 +36,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/dresses.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.dresses') }}
+                                {{ __('category.dresses') }}
                             </div>
                         </a>
                     </div>
@@ -46,7 +46,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/halls.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.halls') }}
+                                {{ __('category.halls') }}
                             </div>
                         </a>
                     </div>
@@ -56,7 +56,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/events.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.events') }}
+                                {{ __('category.events') }}
                             </div>
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/scenery.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.scenery') }}
+                                {{ __('category.scenery') }}
                             </div>
                         </a>
                     </div>
@@ -76,7 +76,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/accessories.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.accessories') }}
+                                {{ __('category.accessories') }}
                             </div>
                         </a>
                     </div>
@@ -86,7 +86,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/travel.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.travel') }}
+                                {{ __('category.travel') }}
                             </div>
                         </a>
                     </div>
@@ -96,7 +96,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/photography.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.photography') }}
+                                {{ __('category.photography') }}
                             </div>
                         </a>
                     </div>
@@ -106,7 +106,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/buffet.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.buffet') }}
+                                {{ __('category.buffet') }}
                             </div>
                         </a>
                     </div>
@@ -116,7 +116,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/cars.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.cars') }}
+                                {{ __('category.cars') }}
                             </div>
                         </a>
                     </div>
@@ -126,7 +126,7 @@
                                 <img class="category-image p-2" src="{{ url('images/categories/other.png') }}">
                             </div>
                             <div class="text-center pt-1">
-                                {{ __('categories.other') }}
+                                {{ __('category.other') }}
                             </div>
                         </a>
                     </div>
